@@ -3,7 +3,7 @@
 This is a simple react project that i did as part of react practice.  
 **GitHub unfollow tracker** allows you check who is unfollowed you and who you do not follow back
 
-> Demo [here](https://github-unfollow-tracker-csargomez.vercel.app/)
+> Demo [here](https://git-hub-unfollower-tracker.vercel.app/)
 
 ## how does it works?
 
