@@ -1,11 +1,11 @@
 import styled from 'styled-components';
 
 export const CardStyle = styled.div`
-	width: 120px;
+	width: 100px;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
-	padding: 5px 10px;
+	padding: 5px 0;
 	margin: 1rem 0;
 	border-radius: 10px;
 	.white {
@@ -16,10 +16,13 @@ export const CardStyle = styled.div`
 	}
 	p {
 		margin: 0.3rem 0;
+		font-size: 15px;
+		width: 100px;
+		word-wrap: break-word;
 	}
 	img {
-		width: 100px;
-		height: 100px;
+		width: 80px;
+		height: 80px;
 		border-radius: 50%;
 	}
 	a img {

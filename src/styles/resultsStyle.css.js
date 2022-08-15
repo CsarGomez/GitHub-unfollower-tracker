@@ -4,15 +4,21 @@ export const ResultsStyle = styled.main`
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: start;
 	gap: 1rem;
 	margin-bottom: 1rem;
 
 	section {
-		height: 450px;
-		overflow-y: scroll;
+		height: 70vh;
 		display: flex;
 		flex-direction: column;
+		overflow-y: scroll;
+		::-webkit-scrollbar {
+			width: 2px;
+		}
+		::-webkit-scrollbar-thumb {
+			background: #888;
+		}
 		div {
 			display: grid;
 			justify-items: center;
@@ -24,6 +30,11 @@ export const ResultsStyle = styled.main`
 	}
 	@media (min-width: 768px) {
 		flex-direction: row;
+	}
+	@media (min-width: 1024px) {
+		section {
+			width: 500px;
+		}
 	}
 
 	.gray {
